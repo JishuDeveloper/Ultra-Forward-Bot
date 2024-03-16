@@ -9,11 +9,11 @@
 
 ### CONFIGS VARIABLES
 
-* `BOT_TOKEN` - Get bot token from @BotFather
-* `API_ID` - From my.telegram.org
-* `API_HASH` - From my.telegram.org
+* `BOT_TOKEN` - Get bot token from <a href="https://t.me/BotFather" target="/blank">Bot Father</a>
+* `API_ID` - Get api id from <a href="https://my.telegram.org" target="/blank">Telegram Auth</a>
+* `API_HASH` - Get api hash from <a href="https://my.telegram.org" target="/blank">Telegram Auth</a>
 * `OWNER_ID` - Bot admin/owner user id.
-* `DATABASE_URI` - Mongo Database URL from https://cloud.mongodb.com
+* `DATABASE_URI` - Mongo Database URL from <a href="https://cloud.mongodb.com" target="/blank">Mongo DB</a>
 * `DATABASE_NAME` - Your database name from mongoDB. (Optional)
 * `BOT_SESSION` - Your Bot session name. (Optional)
 
