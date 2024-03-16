@@ -1,0 +1,53 @@
+{
+  "name": "Ultra Forward Bot",
+  "description": "Telegram Ultra Forward Bot ",
+  "logo": "https://graph.org/file/2f461540c83b362772714.jpg",
+  "keywords": ["Auto Renamer Bot", "Mongo DB"],    
+  "repository": "https://github.com/JishuDeveloper/Ultra-Forward-Bot",
+  "success_url": "https://t.me/Madflix_Bots",
+  "env": {
+      "API_ID": {
+          "description": "Your APP ID From my.telegram.org ",
+          "value": "",
+          "required": true
+      },
+      "API_HASH": {
+          "description": "Your API Hash From my.telegram.org ",
+          "value": "",
+          "required": true
+      },
+      "BOT_TOKEN": {
+          "description": "Your Bot Token From @BotFather",
+          "value": "",
+          "required": true
+      },
+      "OWNER_ID": {
+          "description":"Add Your User ID multiple is use space to split",
+          "value": "",
+          "required": true
+      },
+      "BOT_SESSION": {
+          "description":"Your Bot session name.",
+          "value": "forward-bot",
+          "required": false           
+      },
+      "DB_URL": {
+          "description": "Your Mongo DB URL Obtained From mongodb.com",
+          "value": "",
+          "required": true
+      },
+      "DB_NAME":{ 
+          "description":"Your Mongo DB Database Name",
+          "value": "madflixbotz",
+          "required": false
+      }
+  },
+  "buildpacks": [
+      {
+          "url": "heroku/python"
+      }
+  ]
+}
+
+
+

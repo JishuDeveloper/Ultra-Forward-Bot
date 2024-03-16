@@ -1,0 +1,6 @@
+pyrofork
+motor
+TgCrypto
+Dnspython
+aiohttp
+pytz
