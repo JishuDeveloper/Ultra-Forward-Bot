@@ -20,7 +20,6 @@ botStartTime = time.time()
 
 @Client.on_message(filters.private & filters.command(["ping", "p"]))
 async def ping(_, message):
-    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('✖️ Close ✖️', callback_data='close_btn')]])
     start_t = time.time()
     rm = await message.reply_text("Pinging....", quote=True)
     end_t = time.time()
